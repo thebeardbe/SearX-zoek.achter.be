@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+
+    "default_locale": "en",
+
+    "name": "__MSG_Name__",
+    "description": "__MSG_Description__",
+    "author": "Hedreon",
+
+    "icons": {
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "64": "icons/64.png",
+        "96": "icons/96.png",
+        "128": "icons/128.png",
+        "256": "icons/256.png"
+    },
+
+    "chrome_settings_overrides": {
+        "search_provider": {
+          "name": "SearX",
+          "keyword": "@searx, @sx",
+          "search_url": "https://searx.org/search?q={searchTerms}",
+          "favicon_url": "icons/256.png",
+          "suggest_url": "https://searx.org/autocompleter?q={searchTerms}",
+          "is_default": true
+        }
+    }
+}
