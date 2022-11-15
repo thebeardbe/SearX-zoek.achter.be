@@ -1,27 +1,28 @@
 {
     "manifest_version": 2,
-    "version": "1.1",
+    "version": "1.3",
 
-    "name": "SearX Search",
-    "description": "Adds SearX as the default search engine in your browser.",
+    "name": "SearXNG Search",
+    "description": "Adds SearXNG as the default search engine in your browser.",
     "author": "Hedreon",
 
     "icons": {
-        "16": "icons/16.png",
-        "32": "icons/32.png",
-        "48": "icons/48.png",
-        "64": "icons/64.png",
-        "96": "icons/96.png",
-        "128": "icons/128.png",
-        "256": "icons/256.png"
+        "16": "icon.svg",
+        "32": "icon.svg",
+        "48": "icon.svg",
+        "64": "icon.svg",
+        "96": "icon.svg",
+        "128": "icon.svg",
+        "256": "icon.svg",
+		"512": "icon.svg"
     },
 
     "chrome_settings_overrides": {
         "search_provider": {
-          "name": "SearX",
-          "keyword": "@searx, @sx",
+          "name": "SearXNG",
+          "keyword": "@searx, @sx, @searxng, @sxng, @xng",
           "search_url": "https://searx.org/search?q={searchTerms}",
-          "favicon_url": "icons/256.png",
+          "favicon_url": "icon.svg",
           "suggest_url": "https://searx.org/autocompleter?q={searchTerms}",
           "is_default": true
         }
