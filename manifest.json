@@ -14,7 +14,7 @@
         "96": "icon.svg",
         "128": "icon.svg",
         "256": "icon.svg",
-		"512": "icon.svg"
+	"512": "icon.svg"
     },
 
     "chrome_settings_overrides": {
