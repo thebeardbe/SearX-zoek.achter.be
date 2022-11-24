@@ -2,8 +2,8 @@
     "manifest_version": 2,
     "version": "1.3",
 
-    "name": "SearXNG Search",
-    "description": "Adds SearXNG as the default search engine in your browser.",
+    "name": "SearX zoek.achter.be",
+    "description": "Adds SearXat zoek.achter.be as the default search engine in your browser.",
     "author": "Hedreon",
 
     "icons": {
@@ -21,9 +21,9 @@
         "search_provider": {
           "name": "SearXNG",
           "keyword": "@searx, @sx, @searxng, @sxng, @xng",
-          "search_url": "https://searx.org/search?q={searchTerms}",
+          "search_url": "https://zoek.achter.be/search?q={searchTerms}",
           "favicon_url": "icon.svg",
-          "suggest_url": "https://searx.org/autocompleter?q={searchTerms}",
+          "suggest_url": "https://zoek.achter.be/autocompleter?q={searchTerms}",
           "is_default": true
         }
     }
